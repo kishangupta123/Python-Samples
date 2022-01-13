@@ -1,11 +1,7 @@
-first,second=0,1
-n = int(input("number for fibonacci series : "))
-print("fibonacci series are : ")
-for i in range(0,n):
-    if i<=1:
-        temp=i
-    else:
-      temp = first + second;
-      first = second;
-      second = temp;
-    print(temp)
+#swap 2 number without 3rd variable
+a=int(input("enter first number:"))
+b=int(input("enter second number"))
+a=a-b
+b=a+b
+a=b-a
+print("after swapping result are:",a,b)
